@@ -1,3 +1,7 @@
+/**
+   Get Hacked Jose
+**/
+
 import java.util.Scanner;
 
 public class rocket{
@@ -18,7 +22,9 @@ public class rocket{
       cone(userInput);
    }
    public static void cone(int userIn){
-
+/**
+   I know where you live
+**/
         int lines = (userIn * 2) - 1;
         for(int row = 0; row < lines; row++){ // this loop makes sure that it prints out things line by line
              for(int space = (lines - (row - 1)) - 2; space >= 0; space--){ // this loop prints out the amount of spaces before printing 
@@ -41,6 +47,11 @@ public class rocket{
 
 
    }
+   
+   
+   /**
+      Don't even think about finding out who I am.
+   **/
    public static void topHalf(int userIn){
        for(int line = userIn, row = 0; line  > 0; line--){ // this loop makes sure that everything is printed line by line.
            row++;
